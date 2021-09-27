@@ -40,6 +40,7 @@ namespace ThAmCo.Catering.Data
                 .HasForeignKey(a => a.FoodItemId);
 
 
+
             // Provide seed data
             builder.Entity<FoodItem>().HasData(
                 new FoodItem { FoodItemId = 1, Description = "Spaghetti and Bolognese", unitPrice = 5.99f },
